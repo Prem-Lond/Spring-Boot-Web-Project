@@ -57,7 +57,6 @@ public class LogReg {
 		}
 
 	}
-
 	@RequestMapping(path = "register", method = RequestMethod.POST)
 	public String register(User user, Model model) {
 
